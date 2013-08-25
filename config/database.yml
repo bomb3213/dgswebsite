@@ -8,7 +8,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: dgswebsite_test
+  database: dgs_test
   pool: 5
   #username: dgswebsite
   #password:
@@ -16,7 +16,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: dgswebsite_production
+  database: dgs_production
   pool: 5
   #username: dgswebsite
   #password:
