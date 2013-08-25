@@ -1,5 +1,7 @@
 require 'spec_helper'
 
 describe Posts do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it { should belong_to(:user) }
+  it { should have_many(:tags).through(:taggings_ }
+
 end
