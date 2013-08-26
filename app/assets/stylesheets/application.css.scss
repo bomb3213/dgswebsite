@@ -1,0 +1,36 @@
+@import 'twitter/bootstrap';
+body  {
+  font-family:Verdana,Geneva,sans-serif;
+  font-size:12px;
+  text-align:center;
+}
+a {
+  cursor:pointer;
+  color:#a81b0f;
+  text-decoration:none;
+  font-size:50px;
+  font-variant:small-caps;
+}
+a:hover {
+  // hack around bootstrap, huehue, will change later
+  color:#a81b0f;
+}
+h1  {
+  color:white;
+  font-family: walkway-bold;
+  line-height: 60px;
+  font-size:70px;
+  font-variant:small-caps;
+  margin-bottom:10px;
+}
+h2 {
+  color:#a81c0f ;
+  margin-bottom:10px;
+  font-family: walkway;
+  font-size: 30px;
+}
+
+.container {
+  background-color:#373231;
+  width: 1170px;
+}
