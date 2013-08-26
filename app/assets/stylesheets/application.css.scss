@@ -1,12 +1,12 @@
-@import 'twitter/bootstrap';
+//@import 'twitter/bootstrap';
 
 @font-face {
   font-family:walkway;
-  src:url('resource/font/walkway.ttf');
+  src:url('public/assets/walkway.ttf');
 }
 @font-face {
   font-family:walkway-bold;
-  src:url('resource/font/walkway-bold.ttf');
+  src:url('public/assets/walkway-bold.ttf');
 }
 html {
 height:100%}
@@ -15,7 +15,7 @@ body,blockquote,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,html,pre,form,fieldset,i
 padding:0}
 body {
   background-color:#fff;
-  background-image:url('resource/image/jpg/background-body.jpg');
+  background-image:url('public/assets/background-body.jpg');
   background-size:auto;
   font-family:Verdana,Geneva,sans-serif;
   font-size:12px;
@@ -38,7 +38,7 @@ h1 {
   margin-bottom:10px;
 }
 #site-wrapper {
-  background-image:url('resource/image/jpg/background-site-wrapper.jpg');
+  background-image:url('public/assets/background-site-wrapper.jpg');
   background-position:top;
   background-repeat:repeat-x;
   min-height:100%;
@@ -48,7 +48,7 @@ h1 {
   min-width:1200px !important;
 }
 #header-wrapper {
-  background-image:url('resource/image/png/background-header-center.png');
+  background-image:url('public/assets/background-header-center.png');
   background-position:center -1px;
   background-repeat:no-repeat;
   border-collapse:collapse;
@@ -82,7 +82,7 @@ h1 {
   width:200px;
 }
 #navigation-wrapper {
-  background-image:url('resource/image/jpg/background-navigation-wrapper.jpg');
+  background-image:url('public/assets/background-navigation-wrapper.jpg');
   background-position:top;
   background-repeat:repeat-x;
   color:white;
@@ -116,7 +116,7 @@ h1 {
   width:200px !important;
 }
 #content-center {
-  background-image:url('resource/image/jpg/background-content.jpg');
+  background-image:url('public/assets/background-content.jpg');
   border:#aaaaaa 1px solid;
   border-top:0;
   text-align:left;
@@ -128,13 +128,13 @@ h1 {
   box-shadow:0 5px 15px -5px #aaaaaa;
 }
 #error-report-wrapper {
-  background-image:url('resource/image/jpg/background-error-report-wrapper.jpg');
+  background-image:url('public/assets/background-error-report-wrapper.jpg');
   border:#d29393 1px solid;
   color:#a81c0f;
   margin-bottom:20px;
 }
 #error-report {
-  background-image:url('resource/image/gif/error.gif');
+  background-image:url('public/assets/error.gif');
   background-position:5px 5px;
   background-repeat:no-repeat;
   padding:5px;
@@ -155,7 +155,7 @@ h1 {
   height:88px;
 }
 #footer-wrapper {
-  background-image:url('resource/image/jpg/background-footer-wrapper.jpg');
+  background-image:url('public/assets/background-footer-wrapper.jpg');
   background-repeat:repeat-x;
   background-position:center top;
   background-size:auto;
@@ -179,7 +179,7 @@ h1 {
   width:40%;
 }
 #footer-html5 {
-  background-image:url('resource/image/png/background-footer-html5.png');
+  background-image:url('public/assets/background-footer-html5.png');
   background-repeat:no-repeat;
   background-position:center;
   background-size:auto;
